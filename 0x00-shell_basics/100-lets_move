@@ -1,0 +1,9 @@
+#!/bin/bash
+for file in *
+do
+	    # check if the file name starts with an uppercase letter
+	        if [[ $file == [[:upper:]]* ]]; then
+			        # move the file to the bash directory
+				        mv "$file" /tmp/u
+					    fi
+				    done
