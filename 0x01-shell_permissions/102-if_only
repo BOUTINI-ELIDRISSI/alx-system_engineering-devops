@@ -1,2 +1,2 @@
 #!/bin/bash
-[ $(id -un) = "guillaume" ] && chown betty hello
+chown --from=guillaume betty hello
